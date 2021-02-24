@@ -1,6 +1,6 @@
 .calculatrice{
     width: 500px; 
-    height: 600px;
+    min-height: 600px;
     background-color: #fff;
     box-shadow: 0 0 5px #000;
     margin: 40px auto 0;
@@ -17,15 +17,50 @@
 
 .operators{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 20px;
 }
 
 .operators div{
-    flex: 1;
+    width: 22%;
     height: 100px;
     border: 1px solid #ddd;
     text-align: center;
     line-height: 100px;
     font-size: 3rem;
+}
+
+.numbers{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.numbers div{
+    width: 30%;
+    height: 100px;
+    border: 1px solid #ddd;
+    text-align: center;
+    line-height: 100px;
+    font-size: 3rem;
+}
+
+.left{
+    width: 74%;
+}
+
+.egale{
+    width: 23%;
+    margin-top: 20px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    border: 1px solid #ddd;
+}
+
+.englobe{
+    display: flex;
+    justify-content: space-between;
 }
